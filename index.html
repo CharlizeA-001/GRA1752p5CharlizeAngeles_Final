@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS animations_charlize Angeles_Charlottes Web</title>
+<style type="text/css">
+	body{
+		background:#4760AA;
+			margin: 25px;
+	}
+		
+	wrapper{
+    width: 1366px;
+    height: 1024px;
+    color: #000000;
+    display: inline-block;
+    background-color: #8BA8E2;
+    margin-left: 127px;
+    margin-top: 69px;
+    margin-right: 69px;
+    margin-bottom: 69px;
+	}
+	header{
+		height: 250px;
+		background-color: #8BA8E2;}
+	
+	#web{
+		align-content: center;
+    color: #000000;
+    font-family: "Caslon Antique";
+    display: inherit;
+    width: 285px;
+    height: 198px;
+    margin-left: 84px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    position: absolute;
+    top: 47px;
+    left: 216px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 126px;
+		overflow: hidden;
+		white-space: nowrap;
+	animation: typing 3s 2s steps(40, end) infinite;
+	animation-duration: 5s;
+	animation-delay: 25s;
+	}
+	
+	
+	
+	footer{
+    position: absolute;
+    bottom: -102px;
+    font-family: "Caslon Antique";
+    width: 1343px;
+    color: #000000;
+    text-align: justify;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 11px;
+    font-size: large;
+	}
+	
+	
+	@keyframes typing{0%{width:0%;}100%{width:100%;}}
+	
+	#spider{
+    position: absolute;
+ 
+	}
+	#spider{
+		transform-origin: center;
+	animation: swing 3s infinite ease-in-out ;
+	transform-origin:top;}
+	
+	@keyframes swing {
+		 0%{transform:rotate(-3deg)}
+    50%{transform:rotate(3deg)}
+    100%{transform:rotate(-3deg)}
+	}
+	#pih{
+    position: absolute;
+    padding-top: 17px;
+    padding-right: 17px;
+    padding-bottom: 17px;
+    padding-left: 17px;
+    bottom: -59px;
+	}
+	#wilbur{
+		animation: bounce 3s ease infinite;
+		transform-origin: bottom;
+		
+	}
+	@keyframes bounce{
+	70% { transform:translateY(0%); }
+    80% { transform:translateY(-3%); }
+    90% { transform:translateY(0%); }
+    95% { transform:translateY(-3%); }
+    100% { transform:translateY(0%); }
+}}
+</style>
+</head>
+
+<body>
+	<wrapper> 
+		<header> <h1 id="web"> Charlottes Web </h1>
+		</header>
+		<main>
+		<img id= "spider" src= "charlotte_png.png" alt>
+			<div id="pih">
+				<img id= "wilbur" src= "wilbur_png.png" alt>
+			</div>
+
+			
+		</main>
+		<footer>©2026 , Charlize Angeles
+This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.
+		</footer>
+	</wrapper>
+</body>
+</html>
